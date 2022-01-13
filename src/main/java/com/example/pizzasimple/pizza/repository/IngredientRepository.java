@@ -1,0 +1,7 @@
+package com.example.pizzasimple.pizza.repository;
+
+import com.example.pizzasimple.pizza.model.Ingredient;
+import org.springframework.data.repository.CrudRepository;
+
+public interface IngredientRepository extends CrudRepository<Ingredient, Long> {
+}
